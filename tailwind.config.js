@@ -28,10 +28,20 @@ export default {
       borderRadius: {
         '4xl': '2rem',
       },
-
- 
+      animation: {
+        'spin-slow': 'spin 10s linear infinite',
+        'sketch': 'sketch 3s infinite alternate',
+      },
+      keyframes: {
+        sketch: {
+          '0%, 100%': { textShadow: '1px 1px 1px #7f8c8d' },
+          '50%': { textShadow: '-1px -1px 1px #7f8c8d' },
+        }
+      },
+    
     },
-  },
-  plugins: [],
-}
 
+    plugins: [],
+  }
+
+}

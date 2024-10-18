@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="flex p-20 justify-between  overflow-hidden font-futura bg-black  text-white">
+    <div className="flex py-20 px-12 justify-between  overflow-hidden font-futura bg-black  text-white">
       <div className=" flex gap-10">
         <p>Plan du site</p>
         <p>Cookies</p>

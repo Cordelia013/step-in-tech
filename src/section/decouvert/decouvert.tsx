@@ -1,4 +1,4 @@
-import Carousel from "../../components/carousel/Carousel";
+import Carousel1 from "../../components/carousel/Carousel1";
 
 function Decouvert() {
   return (
@@ -30,27 +30,31 @@ function Decouvert() {
           />
         </div>
         <div className="flex absolute justify-center self-center top-56 ">
-          <h2 className=" z-10 text-5xl w-8/12 text-center uppercase font-bold ">
+          <h2 className=" z-10 text-6xl w-7/12 text-center uppercase font-bold ">
             DÉCOUVREZ cette COLLABORATION exclusive à partir du{" "}
             <span> 18 nov.</span>
           </h2>
         </div>
-        <div className="flex justify-between">
+
+
+        <div className="flex justify-between mb-40 mt-20 mx-12">
           <p className="w-2/12">
             Galeries Harrods, 14 avenue des Champs élysées, Paris
           </p>
           <p className="">Du 18 au 23 Novembre 2024</p>
         </div>
+
       </div>
-      <Carousel />
+
+      <Carousel1 />
 
       <div className="flex justify-between">
-        <p className="w-2/12">
-          Souscrivez à la newsletter pour recevoir les dernières actualités de
-          la maison
+        <p className="w-3/12 px-12">
+          <span className="underline">Souscrivez à la newsletter</span> pour
+          recevoir les dernières actualités de la maison
         </p>
-        <p className="w-2/12">
-          {" "}
+
+        <p className="w-3/12 text-base">
           Service client disponible 7j/7, <br /> au +33 9 77 40 40 77, par
           Whatsapp ou par email.
         </p>
