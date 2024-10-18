@@ -1,8 +1,9 @@
 {
-  "name": "the-flavor-wars",
+  "name": "step-in-tech",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "depot":"https://gitlab.com/cordeliaguims/step-in-tech.git",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

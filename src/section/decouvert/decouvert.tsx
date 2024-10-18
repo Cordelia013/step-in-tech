@@ -15,17 +15,17 @@ function Decouvert() {
       <div className="relative">
         <div className="flex justify-between grayscale mt-36">
           <img
-            src="/src/assets/assietteVuitton.png"
+            src="/assets/assietteVuitton.png"
             alt=""
             className=" w-96 laptop:w-64 bg-black/60 origin-top-left rotate-[5.53deg]"
           />
           <img
-            src="/src/assets/espace vuitton.png"
+            src="/assets/espace vuitton.png"
             alt=""
             className=" w-96 laptop:w-64 bg-black/60 origin-top-left rotate-[-4.98deg]"
           />
           <img
-            src="/src/assets/table.png"
+            src="/assets/table.png"
             alt=""
             className=" w-96 laptop:w-64 bg-black/60 origin-top-left rotate-[5.51deg]"
           />

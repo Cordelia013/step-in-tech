@@ -13,7 +13,7 @@ function HeroScection() {
             LOUIS VUITTON
           </h1>
           <img
-            src="/src/assets/X LV 2 1heroHeader.png"
+            src="/assets/X LV 2 1heroHeader.png"
             alt="croix"
             className="ml-10 h-128"
           />

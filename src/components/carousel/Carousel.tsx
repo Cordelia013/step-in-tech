@@ -4,17 +4,17 @@ function Carousel() {
   const carouselRef = useRef<HTMLDivElement>(null);
   const [items, setItems] = useState([
     { type: "text", content: "INNOVATION" },
-    { type: "image", src: "/src/assets/X LV 2 1heroHeader.png" },
+    { type: "image", src: "/assets/X LV 2 1heroHeader.png" },
     { type: "text", content: "Créativité" },
-    { type: "image", src: "/src/assets/X LV 2 1heroHeader.png" },
+    { type: "image", src: "/assets/X LV 2 1heroHeader.png" },
     { type: "text", content: "résonnance" },
-    { type: "image", src: "/src/assets/X LV 2 1heroHeader.png" },
+    { type: "image", src: "/assets/X LV 2 1heroHeader.png" },
     { type: "text", content: "fantaisie" },
-    { type: "image", src: "/src/assets/X LV 2 1heroHeader.png" },
+    { type: "image", src: "/assets/X LV 2 1heroHeader.png" },
     { type: "text", content: "vibrance" },
-    { type: "image", src: "/src/assets/X LV 2 1heroHeader.png" },
+    { type: "image", src: "/assets/X LV 2 1heroHeader.png" },
     { type: "text", content: "iconique" },
-    { type: "image", src: "/src/assets/X LV 2 1heroHeader.png" },
+    { type: "image", src: "/assets/X LV 2 1heroHeader.png" },
   ]);
 
   useEffect(() => {
