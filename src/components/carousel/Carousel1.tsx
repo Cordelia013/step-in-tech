@@ -1,8 +1,8 @@
-import { useEffect, useRef, useState } from "react";
+import {  useRef, useState } from "react";
 
 function Carousel1() {
   const carouselRef = useRef<HTMLDivElement>(null);
-  const [items, setItems] = useState([
+  const [items] = useState([
     {
       type: "text",
       content: "La maison",

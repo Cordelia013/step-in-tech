@@ -41,7 +41,7 @@ function Carousel() {
     <div className="overflow-hidden">
       <div
         ref={carouselRef}
-        className=" mb-12 flex items-center gap-10 transition-transform duration-500 ease-in-out"
+        className=" mb-12 mt-28 flex items-center gap-10 transition-transform duration-500 ease-in-out"
       >
         {items.map((item, index) =>
           item.type === "text" ? (

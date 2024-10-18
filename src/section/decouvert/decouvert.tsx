@@ -2,8 +2,8 @@ import Carousel1 from "../../components/carousel/Carousel1";
 
 function Decouvert() {
   return (
-    <div className="h-content overflow-hidden font-futura bg-black  text-white ">
-      <p className="m-16 text-center ">
+    <div className="h-content overflow-hidden text-xl bg-black  text-white ">
+      <p className="m-16 ml-48 text-center w-9/12 ">
         La Maison aura le bonheur de vous accueillir au sein des galeries
         Harrods pour célébrer cette nouvelle collaboration avec vous. Venez
         découvrir, au sein de cette boutique effervescente, la nouvelle
@@ -16,17 +16,17 @@ function Decouvert() {
           <img
             src="/assets/assietteVuitton.png"
             alt=""
-            className=" w-[423.02px] h-[529.82px] opacity-60 bg-black origin-top-left rotate-[5.53deg]"
+            className=" w-[423.02px] h-[529.82px] opacity-55 bg-black origin-top-left rotate-[5.53deg]"
           />
           <img
             src="/assets/espace vuitton.png"
             alt=""
-            className="w-[425.27px] h-[531.99px] opacity-60 bg-black/60 origin-top-left rotate-[-4.98deg]"
+            className="w-[425.27px] h-[531.99px] opacity-55 bg-black/60 origin-top-left rotate-[-4.98deg]"
           />
           <img
             src="/assets/table.png"
             alt=""
-            className=" w-[434.87px] h-[534.96px] opacity-60 ml-20 bg-black/60 origin-top-left rotate-[5.51deg]"
+            className=" w-[434.87px] h-[534.96px] opacity-55 ml-20 bg-black/60 origin-top-left rotate-[5.51deg]"
           />
         </div>
         <div className="flex absolute justify-center self-center top-56 ">
