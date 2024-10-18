@@ -1,0 +1,35 @@
+#root {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Media Queries */
+
+@media (max-width: 320px) {
+  #root {
+    max-width: 320px; /* Mise à jour pour mobile */
+  }
+}
+
+@media (min-width: 321px) and (max-width: 640px) {
+  #root {
+    max-width: 640px; /* Mise à jour pour tablette */
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  #root {
+    max-width: 1024px; /* Mise à jour pour ordinateur portable */
+  }
+}
+
+@media (min-width: 1025px) {
+  #root {
+    min-width: 1025px; /* Mise à jour pour bureau */
+  }
+}
+
+
+
