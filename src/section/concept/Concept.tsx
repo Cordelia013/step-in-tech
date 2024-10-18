@@ -1,5 +1,3 @@
-
-
 function Concept() {
   return (
     <div className=" h-[810px] overflow-hidden font-futura bg-black  text-white ">
@@ -12,14 +10,14 @@ function Concept() {
           <div className=" "> </div>
 
           <img
-            src="/src/assets/Rectangle 4.jpg"
+            src="/assets/Rectangle 4.jpg"
             alt=""
             className="h-[45rem] col-span-1"
           />
           <div className=" flex w-[438px] font-medium leading-none mr-11 -rotate-90 text-red-400  text-[180px] laptop:text-[130px] relative top-36  left-28">
             STEP
             <video
-              src="/src/assets/Anim logo LV x Adobe continue 2.mp4"
+              src="/assets/Anim logo LV x Adobe continue 2.mp4"
               autoPlay
               loop
               muted
@@ -34,7 +32,7 @@ function Concept() {
           </div> */}
 
           <img
-            src="/src/assets/Rectangle 3.jpg"
+            src="/assets/Rectangle 3.jpg"
             alt=""
             sizes="838px"
             className="h-[45rem] col-span-2 "
