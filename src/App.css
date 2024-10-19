@@ -1,8 +1,28 @@
 #root {
   box-sizing: content-box;
-  margin: 0;
+   margin: 0 auto; 
   padding: 0;
+  width: 1520px; 
   
+}
+.wave-animation {
+  display: inline-block;
+  animation: wave 1.5s infinite;
+}
+
+@keyframes wave {
+  0%, 100% {
+    transform: translatex(0);
+  }
+  25% {
+    transform: translatex(-5px);
+  }
+  50% {
+    transform: translatex(0);
+  }
+  75% {
+    transform: translatex(5px);
+  }
 }
 
 /* Media Queries */
@@ -31,5 +51,9 @@
   }
 }
 
-
+@media (min-width: 1480px) {
+  #root {
+    max-width: 100%; /* Permet à l'application de ne pas dépasser la largeur de l'écran */
+  }
+}
 

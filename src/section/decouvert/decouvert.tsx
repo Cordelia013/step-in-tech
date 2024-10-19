@@ -3,7 +3,10 @@ import EffectText from "../../components/effectText/effectText";
 
 function Decouvert() {
   return (
-    <div className="h-content overflow-hidden text-xl bg-black  text-white ">
+    <div
+      id="Collection"
+      className="h-content overflow-hidden text-xl bg-black  text-white "
+    >
       <p className="m-16 ml-48 text-center w-9/12 ">
         La Maison aura le bonheur de vous accueillir au sein des galeries
         Harrods pour célébrer cette nouvelle collaboration avec vous. Venez
@@ -30,15 +33,7 @@ function Decouvert() {
             className=" w-[434.87px] h-[534.96px] opacity-55 ml-20 bg-black/60 origin-top-left rotate-[5.51deg]"
           />
         </div>
-        {/* <div className="flex absolute justify-center self-center top-56 ">
-          <h2 className=" z-10 text-6xl w-7/12 text-center uppercase font-bold ">
-            DÉCOUVREZ cette COLLABORATION exclusive à partir du{" "}
-            <span className="highlight" id="highlight-text">
-              18 NOV.
-            </span>
-            <svg id="svg-container"></svg>
-          </h2>
-        </div> */}
+
         <EffectText />
         <div className="flex justify-between mb-40 mt-20 mx-12">
           <p className="w-2/12">

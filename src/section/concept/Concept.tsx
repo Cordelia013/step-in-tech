@@ -1,8 +1,11 @@
 function Concept() {
   return (
-    <div className=" h-[810px] overflow-hidden font-futura bg-black  text-white ">
-      <div className="m-10">
-        <p className="text-3xl w-3/12 z-20 absolute">
+    <div
+      id="concept"
+      className=" h-[980px] overflow-hidden font-futura bg-black  text-white "
+    >
+      <div className="m-10 my-40">
+        <p className="text-2xl px-14 z-20 absolute">
           A la croisée des industries, <br /> Louis Vuitton et Adobe <br />
           s’associent pour créer <br />
           des produits plus innovants <br /> et plus créatifs que jamais.
@@ -16,8 +19,7 @@ function Concept() {
             className="h-[45rem] col-span-1 "
           />
 
-          
-          <div className=" flex w-[438px] align-baseline font-medium leading-none mr-11 -rotate-90 desktop:text-[200px] laptop:text-[130px] relative top-36  left-28">
+          <div className=" flex w-[438px] align-baseline font-medium leading-none mr-11 -rotate-90 desktop:text-[200px] laptop:text-[130px] relative top-48  left-28">
             <div className="flex align-baseline mt-12"> STEP</div>
             <video
               src="/assets/Anim logo LV x Adobe continue 2.mp4"

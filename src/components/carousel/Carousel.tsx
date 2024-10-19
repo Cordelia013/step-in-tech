@@ -24,7 +24,7 @@ function Carousel() {
         const itemWidth = firstItem.offsetWidth + 40; // 40px pour le gap
 
         carouselRef.current.style.transition = "transform 0.5s ease-in-out";
-        carouselRef.current.style.transform = `translateX(-${itemWidth}px)`;
+        carouselRef.current.style.transform = `translateX(${itemWidth}px)`;
 
         setTimeout(() => {
           carouselRef.current!.style.transition = "none";

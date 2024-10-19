@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import rough from "roughjs/bundled/rough.esm";
 
+
 const EffectText: React.FC = () => {
   const svgRef = useRef<SVGSVGElement>(null);
   const highlightRef = useRef<HTMLSpanElement>(null);
@@ -25,14 +26,16 @@ const EffectText: React.FC = () => {
       const node = rc.ellipse(
         xOffset + width / 2,
         yOffset + height / 2,
-        width * 1.25,
+        width * 1.2,
         height * 1.4,
         {
-          roughness: 2.5,
+          roughness: 3,
           stroke: "red",
-          strokeWidth: 2,
+          strokeWidth: 4,
         }
       );
+
+      
 
       svgContainer.appendChild(node);
     };
@@ -49,13 +52,13 @@ const EffectText: React.FC = () => {
     <div className="flex absolute justify-center self-center top-56  ">
       <p className=" z-10 text-6xl w-7/12 text-center uppercase font-bold ">
         Découvrez cette collaboration exclusive à partir du{" "}
-        <span className="relative inline-block px-2.5" ref={highlightRef}>
-          18 NOV.
+        <span className="relative inline-block px-2.5 wave-animation" ref={highlightRef}>
+          18 NOV. {/* Ajout de la classe d'animation */}
         </span>
       </p>
       <svg
         ref={svgRef}
-        className="absolute -top-1.25 -left-1.25 w-[calc(100%+10px)] h-[calc(100%+10px)] pointer-events-none"
+        className="absolute z-40 -top-1.25 -left-1.25 w-[calc(100%+10px)] h-[calc(100%+20px)] pointer-events-none"
       ></svg>
     </div>
   );
