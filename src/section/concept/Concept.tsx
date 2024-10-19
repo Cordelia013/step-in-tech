@@ -2,7 +2,7 @@ function Concept() {
   return (
     <div
       id="concept"
-      className=" h-[980px] overflow-hidden font-futura bg-black  text-white "
+      className=" h-[1080px] overflow-hidden bg-black  text-white "
     >
       <div className="m-10 my-40">
         <p className="text-2xl px-14 z-20 absolute">

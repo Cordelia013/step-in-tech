@@ -1,6 +1,7 @@
 // import GridComponent from "./components/GridComponent";
 
 import "./App.css";
+import Scroll from "./components/scroll/scroll";
 
 import Concept from "./section/concept/concept";
 import Decouvert from "./section/decouvert/decouvert";
@@ -15,6 +16,7 @@ function App() {
       <Concept />
       <Store />
       <Decouvert />
+     <Scroll /> 
      <Footer />
     </>
   );

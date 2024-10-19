@@ -5,7 +5,7 @@ import NavBar from "../../components/nav/NavBar";
 function HeroScection() {
   return (
     <>
-      <div className="h-screen overflow-hidden mx-10 mt-5 font-futura ">
+      <div className="h-screen overflow-hidden mx-10 mt-5 -mb-10 ">
         <NavBar />
 
         <div className=" relative flex flex-col justify-center items-center destop:text-8xl laptop:text-5xl mobile:text-4xl ">
