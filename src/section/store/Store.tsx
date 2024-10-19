@@ -12,13 +12,13 @@ function Store() {
           lv <br /> x <br /> adobe
         </div>
         <img
-          src="/public/assets/POPUP_ANIM.gif"
+          src="/assets/POPUP_ANIM.gif"
           alt="naimationGif"
           className=" relative z-30"
         />
 
         <img
-          src="/public/assets/popupImg.jpg"
+          src="/assets/popupImg.jpg"
           alt="image pupup store"
           className=" relative -top-16"
         />
