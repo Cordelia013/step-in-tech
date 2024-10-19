@@ -27,7 +27,7 @@ const EffectText: React.FC = () => {
         xOffset + width / 2,
         yOffset + height / 2,
         width * 1.2,
-        height * 1.4,
+        height * 1.6,
         {
           roughness: 3,
           stroke: "red",
