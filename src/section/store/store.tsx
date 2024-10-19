@@ -18,8 +18,8 @@ function Store() {
         />
 
         <img
-          src="/public/assets/Rectangle 3.jpg"
-          alt="rect"
+          src="/public/assets/popupImg.jpg"
+          alt="image pupup store"
           className=" relative -top-16"
         />
       </div>
