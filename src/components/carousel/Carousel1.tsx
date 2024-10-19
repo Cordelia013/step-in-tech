@@ -6,25 +6,25 @@ function Carousel1() {
     {
       type: "text",
       content: "La maison",
-      image: { type: "image", src: "/public/assets/Arrow top right.svg" },
+      image: { type: "image", src: "/assets/Arrow top right.svg" },
     },
     { type: "image", src: "/assets/X LV 2 1heroHeader.png" },
     {
       type: "text",
       content: "Collection",
-      image: { type: "image", src: "/public/assets/Arrow top right.svg" },
+      image: { type: "image", src: "/assets/Arrow top right.svg" },
     },
     { type: "image", src: "/assets/X LV 2 1heroHeader.png" },
     {
       type: "text",
       content: "Popup store",
-      image: { type: "image", src: "/public/assets/Arrow top right.svg" },
+      image: { type: "image", src: "/assets/Arrow top right.svg" },
     },
     { type: "image", src: "/assets/X LV 2 1heroHeader.png" },
     {
       type: "text",
       content: "Faq",
-      image: { type: "image", src: "/public/assets/Arrow top right.svg" },
+      image: { type: "image", src: "/assets/Arrow top right.svg" },
     },
     // { type: "image", src: "/assets/X LV 2 1heroHeader.png" },
   ]);
