@@ -1,4 +1,5 @@
 import Carousel1 from "../../components/carousel/Carousel1";
+import EffectText from "../../components/effectText/effectText";
 
 function Decouvert() {
   return (
@@ -29,21 +30,22 @@ function Decouvert() {
             className=" w-[434.87px] h-[534.96px] opacity-55 ml-20 bg-black/60 origin-top-left rotate-[5.51deg]"
           />
         </div>
-        <div className="flex absolute justify-center self-center top-56 ">
+        {/* <div className="flex absolute justify-center self-center top-56 ">
           <h2 className=" z-10 text-6xl w-7/12 text-center uppercase font-bold ">
             DÉCOUVREZ cette COLLABORATION exclusive à partir du{" "}
-            <span> 18 nov.</span>
+            <span className="highlight" id="highlight-text">
+              18 NOV.
+            </span>
+            <svg id="svg-container"></svg>
           </h2>
-        </div>
-
-
+        </div> */}
+        <EffectText />
         <div className="flex justify-between mb-40 mt-20 mx-12">
           <p className="w-2/12">
             Galeries Harrods, 14 avenue des Champs élysées, Paris
           </p>
           <p className="">Du 18 au 23 Novembre 2024</p>
         </div>
-
       </div>
 
       <Carousel1 />
