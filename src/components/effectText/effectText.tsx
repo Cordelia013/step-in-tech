@@ -27,7 +27,7 @@ const EffectText: React.FC = () => {
         xOffset + width / 2,
         yOffset + height / 2,
         width * 1.2,
-        height * 1.6,
+        height * 1.4,
         {
           roughness: 3,
           stroke: "red",
@@ -58,7 +58,7 @@ const EffectText: React.FC = () => {
       </p>
       <svg
         ref={svgRef}
-        className="absolute z-40 -top-1.25 -left-1.25 w-[calc(100%+10px)] h-[calc(100%+20px)] pointer-events-none"
+        className="absolute z-40 -top-1.25 -left-1.20 w-[calc(100%+10px)] h-[calc(100%+20px)] pointer-events-none"
       ></svg>
     </div>
   );
