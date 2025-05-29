@@ -6,6 +6,8 @@
   "depot": "https://gitlab.com/cordeliaguims/step-in-tech.git",
   "scripts": {
     "dev": "vite",
+    "dev:host": "vite --host",
+    "dev:network": "vite --host 0.0.0.0",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "build:css": "tailwindcss -i ./src/app.css -o ./src/output.css --watch",
