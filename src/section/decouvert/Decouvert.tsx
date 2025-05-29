@@ -4,7 +4,7 @@ import EffectText from "../../components/effectText/effectText";
 function Decouvert() {
   return (
     <div
-      id="Collection"
+      id="collection"
       className="h-content overflow-hidden text-xl bg-black  text-white "
     >
       <p className="m-16 ml-48 text-center w-9/12 ">
