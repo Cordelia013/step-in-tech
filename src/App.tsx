@@ -48,7 +48,7 @@ function App() {
 
   return (
     <>
-      <div className="min-h-screen max-w-screen-3xl mx-auto  scroll-smooth flex flex-col ">
+      <div className="min-h-screen max-w-screen-2xl mx-auto  scroll-smooth flex flex-col ">
  <HeroScection />
       <Concept />
        <Store />
