@@ -1,9 +1,12 @@
 #root {
-  box-sizing: content-box;
-   margin: 0 auto; 
-  padding: 0;
-  width: 1520px; 
-  
+  margin: 0
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+ ;
 }
 .wave-animation {
   display: inline-block;
