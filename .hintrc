@@ -3,20 +3,19 @@
     "development"
   ],
   "hints": {
-<<<<<<< HEAD
-=======
+    "no-inline-styles": "off",
     "button-type": "off",
->>>>>>> develop
     "axe/aria": [
       "default",
       {
         "aria-valid-attr-value": "off"
       }
-<<<<<<< HEAD
     ],
-    "typescript-config/consistent-casing": "off"
-=======
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
     ]
->>>>>>> develop
   }
 }

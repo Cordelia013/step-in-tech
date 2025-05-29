@@ -104,9 +104,7 @@ const MenuItem = ({
   };
 
   return (
-    <li
-      className={`
-        transform transition-all duration-300 ease-out
+    <li className={`transform transition-all duration-300 ease-out
         ${isVisible
           ? 'translate-x-0 opacity-100'
           : '-translate-x-4 opacity-0'
