@@ -66,7 +66,11 @@ const useClickSound = () => {
 };
 
 // Burger Icon Component with smooth animation
-const BurgerIcon = ({ isOpen }) => {
+type BurgerIconProps = {
+  isOpen: boolean;
+};
+
+const BurgerIcon = ({ isOpen }: BurgerIconProps) => {
   return (
     <div className="w-6 h-6 flex flex-col justify-center items-center">
       <span 
@@ -118,7 +122,7 @@ const MenuItem = ({ item, index, isVisible, onClose, playSound }: MenuItemProps)
           ${isHovered ? 'bg-gray-900 text-white' : 'hover:bg-gray-100'}
           focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black
         `}
-        onClick={(e) => {
+        onClick={() => {
           playSound();
           setTimeout(() => onClose(), 150);
         }}
@@ -200,8 +204,8 @@ function NavBar() {
 
   // Close menu when clicking outside
   useEffect(() => {
-    const handleClickOutside = (event: { target: Node | null; }) => {
-      if (navRef.current && !navRef.current.contains(event.target)) {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (navRef.current && event.target instanceof Node && !navRef.current.contains(event.target)) {
         closeMenu();
       }
     };
