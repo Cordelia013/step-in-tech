@@ -8,7 +8,7 @@ function HeroScection() {
       <div className="w-full relative min-h-svh">
         <NavBar />
 
-        <div className=" relative flex flex-col justify-center items-center destop:text-8xl laptop:text-5xl mobile:text-3xl mobile:mt-20">
+        <div className=" relative flex flex-col justify-center items-center destop:text-8xl laptop:text-5xl mobile:text-3xl mobile:mt-40">
           <h1 className="">
             LOUIS VUITTON
           </h1>
