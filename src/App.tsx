@@ -6,7 +6,7 @@ import "./lenis.css";
 
 import HeroScection from "./section/hero/HeroScection.tsx";
 import Concept from "./section/concept/Concept.tsx";
-import Lenis from "@studio-freight/lenis/types";
+import Lenis from "@studio-freight/lenis";
 import { useEffect } from "react";
 
 
@@ -48,7 +48,7 @@ function App() {
 
   return (
     <>
-      <div className="min-h-screen max-w-screen-3xl mx-auto px-4 scroll-smooth flex flex-col gap-y-4">
+      <div className="min-h-screen max-w-screen-3xl mx-auto  scroll-smooth flex flex-col gap-y-4">
  <HeroScection />
       <Concept />
       {/* <Store />
