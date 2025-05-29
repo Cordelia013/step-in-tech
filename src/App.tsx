@@ -29,7 +29,7 @@ function App() {
       gestureOrientation: "vertical",
       smoothWheel: true,
       wheelMultiplier: 1,
-      touchMultiplier: 1,
+      touchMultiplier: 1.5,
       infinite: false,
     });
 
