@@ -10,11 +10,11 @@ import Lenis from "@studio-freight/lenis";
 import { useEffect } from "react";
 
 
-// import Scroll from "./components/scroll/scroll.tsx";
-// import Decouvert from "./section/decouvert/Decouvert.tsx";
-// import Footer from "./section/footer/Footer.tsx";
+import Scroll from "./components/scroll/scroll.tsx";
+import Decouvert from "./section/decouvert/Decouvert.tsx";
+import Footer from "./section/footer/Footer.tsx";
 
-// import Store from "./section/store/Store.tsx";
+import Store from "./section/store/Store.tsx";
 
 
 
@@ -48,13 +48,13 @@ function App() {
 
   return (
     <>
-      <div className="min-h-screen max-w-screen-3xl mx-auto  scroll-smooth flex flex-col gap-y-4">
+      <div className="min-h-screen max-w-screen-3xl mx-auto  scroll-smooth flex flex-col ">
  <HeroScection />
       <Concept />
-      {/* <Store />
+       <Store />
       <Decouvert />
       <Scroll />
-      <Footer /> */}
+      <Footer /> 
 
       </div>
      
