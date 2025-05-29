@@ -3,12 +3,20 @@
     "development"
   ],
   "hints": {
+<<<<<<< HEAD
+=======
+    "button-type": "off",
+>>>>>>> develop
     "axe/aria": [
       "default",
       {
         "aria-valid-attr-value": "off"
       }
+<<<<<<< HEAD
     ],
     "typescript-config/consistent-casing": "off"
+=======
+    ]
+>>>>>>> develop
   }
 }
