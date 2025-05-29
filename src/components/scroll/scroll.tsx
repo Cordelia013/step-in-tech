@@ -25,7 +25,7 @@ function Scroll() {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-4 right-4 z-50 p-3 bg-blue-500 text-white rounded-full"
+          className="fixed bottom-4 right-4 z-50 p-3 bg-red-700 text-white rounded-full"
         >
           <svg
             width="24"
